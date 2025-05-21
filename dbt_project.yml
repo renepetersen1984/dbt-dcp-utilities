@@ -1,0 +1,7 @@
+name: 'dbt_dcp_utilities'
+version: '1.0.0'
+
+target-path: "target"
+macro-paths: ["macros"]
+clean-targets: ["target", "dbt_packages"]
+log-path: "logs"
